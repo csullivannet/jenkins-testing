@@ -9,4 +9,4 @@ cp ${SOURCE_DIR}/docker-images/${DISTRO}-hello/Dockerfile .
 
 cp -R ${SOURCE_DIR}/${DISTRO}/text .
 
-docker build -t ${DISTRO}-hello .
+docker build -t $1 .
